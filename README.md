@@ -142,7 +142,8 @@ If you use this code for research or academic purposes, cite:
 
 ## 📨 Contact
 For research collaboration or permissions:  
-**Email:** *your preferred address here*
+**Email:** weristnochda@gmail.com
+
 
 
 
