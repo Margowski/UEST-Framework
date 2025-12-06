@@ -1,5 +1,5 @@
 <p align="center">
-   <imp src="Logo-UEST.jpg" alt="UEST Framework Logo" width="400">
+   <img src="Logo-UEST.jpg" alt="UEST Framework Logo" width="400">
 </p>
    
 \# UEST Framework – Discrete Proxy Implementation  
@@ -125,16 +125,9 @@ If you use this code for research or academic purposes, cite:
 ---
 
 \## 📂 File Overview
-├── uest_core.py
-│ ├── calculate_structural_time() # proxy T(E')
-│ ├── calculate_sensitivity() # proxy Σ(E')
-│ └── TensionsDivergenceTheorem() # heuristic instability threshold
-│
-├── uest_llm_structural_verification.py
-│ └── Example structural analysis of LLM decision matrices
-│
-├── LICENSE.md
-└── README.md
+<p align="center">
+   <img src="Structure.jpg" alt="File Overview" width="400">
+</p>
 
 
 
@@ -150,6 +143,7 @@ If you use this code for research or academic purposes, cite:
 ## 📨 Contact
 For research collaboration or permissions:  
 **Email:** *your preferred address here*
+
 
 
 
