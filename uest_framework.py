@@ -425,11 +425,20 @@ class UESTFramework:
             hidden_states = hidden_states.reshape(-1, 1)
         
         if method == 'covariance':
-            # Compute covariance matrix
-            state_matrix = np.cov(hidden_states.T)
+            # For single sample, use outer product instead of covariance
+            if hidden_states.shape[0] == 1:
+                vec = hidden_states.flatten()
+                state_matrix = np.outer(vec, vec)
+            else:
+                state_matrix = np.cov(hidden_states.T)
         elif method == 'correlation':
-            # Compute correlation matrix
-            state_matrix = np.corrcoef(hidden_states.T)
+            # For single sample, use normalized outer product
+            if hidden_states.shape[0] == 1:
+                vec = hidden_states.flatten()
+                vec_norm = vec / (np.linalg.norm(vec) + 1e-10)
+                state_matrix = np.outer(vec_norm, vec_norm)
+            else:
+                state_matrix = np.corrcoef(hidden_states.T)
         elif method == 'gram':
             # Compute Gram matrix
             state_matrix = hidden_states.T @ hidden_states
@@ -441,5 +450,11 @@ class UESTFramework:
             state_matrix = np.array([[state_matrix]])
         elif state_matrix.ndim == 1:
             state_matrix = np.diag(state_matrix)
+        
+        # Replace any NaN or Inf values
+        if np.any(np.isnan(state_matrix)) or np.any(np.isinf(state_matrix)):
+            # Fallback to identity matrix with small regularization
+            warnings.warn("NaN or Inf detected in state matrix, using regularized identity")
+            state_matrix = np.eye(state_matrix.shape[0]) * 0.1
         
         return state_matrix
