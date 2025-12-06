@@ -1,3 +1,4 @@
+![UEST  Framework Logo](Logo-UEST.jpg)
 \# UEST Framework – Discrete Proxy Implementation  
 
 \### Research Code Release (Non-Commercial)
@@ -154,6 +155,7 @@ If you use this code for research or academic purposes, cite:
 ## 📨 Contact
 For research collaboration or permissions:  
 **Email:** *your preferred address here*
+
 
 
 
