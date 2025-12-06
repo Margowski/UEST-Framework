@@ -104,8 +104,8 @@ class UESTFramework:
         # Compute Shannon entropy
         entropy = -np.sum(probs * np.log(probs + 1e-10))
         
-        # Normalize by maximum possible entropy
-        max_entropy = np.log(len(eigenvalues))
+        # Normalize by maximum possible entropy (using filtered probability count)
+        max_entropy = np.log(len(probs)) if len(probs) > 0 else 0.0
         normalized_entropy = entropy / max_entropy if max_entropy > 0 else 0.0
         
         return normalized_entropy
@@ -393,7 +393,7 @@ class UESTFramework:
             'spectral_radius': float(np.max(np.abs(eigenvalues))) if len(eigenvalues) > 0 else 0.0,
             'trace': float(np.trace(state_matrix)),
             'determinant': float(np.linalg.det(state_matrix)),
-            'condition_number': float(np.linalg.cond(state_matrix))
+            'condition_number': float(min(np.linalg.cond(state_matrix), 1e15))  # Cap condition number for stability
         }
         
         # Generate interpretation

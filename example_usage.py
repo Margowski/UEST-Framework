@@ -6,11 +6,12 @@ into white box interpretable outputs using the UEST framework.
 """
 
 import numpy as np
+from typing import Tuple
 from uest_framework import UESTFramework, WhiteBoxOutput
 
 
 def simulate_nn_hidden_states(size: int = 10, 
-                              stability: str = 'stable') -> tuple[np.ndarray, float, int]:
+                              stability: str = 'stable') -> Tuple[np.ndarray, float, int]:
     """
     Simulate neural network hidden states for demonstration.
     
