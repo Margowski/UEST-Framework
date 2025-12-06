@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left>
    <img src="Logo-UEST.jpg" alt="UEST Framework Logo" width="400">
 </p>
    
@@ -125,7 +125,7 @@ If you use this code for research or academic purposes, cite:
 ---
 
 \## 📂 File Overview
-<p align="center">
+<p align="left">
    <img src="Structure.jpg" alt="File Overview" width="400">
 </p>
 
@@ -143,6 +143,7 @@ If you use this code for research or academic purposes, cite:
 ## 📨 Contact
 For research collaboration or permissions:  
 **Email:** *your preferred address here*
+
 
 
 
