@@ -2,22 +2,15 @@
    <imp src="Logo-UEST.jpg" alt="UEST Framework Logo" width="400">
 </p>
    
-
-
-
 \# UEST Framework – Discrete Proxy Implementation  
 
 \### Research Code Release (Non-Commercial)
-
-
 
 \*\*Author:\*\* Olaf Margowski  
 
 \*\*Year:\*\* 2025  
 
 \*\*DOI (planned Zenodo deposit):\*\* \*to be assigned\*  
-
-
 
 ---
 
@@ -51,11 +44,7 @@ scientific UEST publications. They are simplified, finite-dimensional approximat
 
 for demonstration, analysis, and research.
 
-
-
 ---
-
-
 
 \## 📘 Scientific Purpose
 
@@ -161,6 +150,7 @@ If you use this code for research or academic purposes, cite:
 ## 📨 Contact
 For research collaboration or permissions:  
 **Email:** *your preferred address here*
+
 
 
 
