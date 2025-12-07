@@ -36,9 +36,9 @@ intended for demonstration, analysis, and research.
 The UEST Framework introduces a **universal structural comparison methodology** for  
 heterogeneous physical and mathematical systems, based on:
 
-- Structural Path: $S(E')$  
-- Structural Sensitivity: $\Sigma(E') = \lvert dS/dE' \rvert$  
-- Emergent Structural Time: $T(E') = \int_0^{E'} \Sigma(\xi)\, d\xi$  
+- Structural Path: `$S(E')$`  
+- Structural Sensitivity: `$\Sigma(E') = \lvert dS/dE' \rvert$`  
+- Emergent Structural Time: `$T(E') = \int_0^{E'} \Sigma(\xi)\, d\xi$`  
 - Template Classification (A / B / C)  
 
 This repository provides proxy tools for exploring these ideas in:
@@ -107,14 +107,3 @@ If you use this code for research or academic purposes, cite:
 
 For research collaboration or permissions:  
 **Email:** weristnochda@gmail.com
-
-
-
-
-
-
-
-
-
-
-
