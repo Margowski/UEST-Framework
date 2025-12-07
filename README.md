@@ -14,32 +14,32 @@
 
 ## 🔬 What This Repository Contains
 
-This repository provides the **official discrete proxy implementation** of structural
+This repository provides the **official discrete proxy implementation** of structural  
 metrics used in the **Unified Energy–Structure–Tension (UEST) Framework**.
 
 It includes:
 
 - `uest_core.py`  
-  → Proxy versions of structural sensitivity $\Sigma$ and emergent structural time $T$
+  → Proxy versions of structural sensitivity Σ and emergent structural time T  
 
 - `uest_llm_structural_verification.py`  
-  → Demonstration script for applying UEST-inspired metrics to LLM decision matrices
+  → Demonstration script for applying UEST-inspired metrics to LLM decision matrices  
 
-These implementations **do not** represent the continuous mathematical definitions in the
-scientific UEST publications. They are simplified, finite-dimensional approximations
+These implementations **do not** represent the continuous mathematical definitions in the  
+scientific UEST publications. They are simplified, finite-dimensional approximations  
 intended for demonstration, analysis, and research.
 
 ---
 
 ## 📘 Scientific Purpose
 
-The UEST Framework introduces a **universal structural comparison methodology** for
+The UEST Framework introduces a **universal structural comparison methodology** for  
 heterogeneous physical and mathematical systems, based on:
 
-- Structural Path: $S(E')$
-- Structural Sensitivity: $\Sigma(E') = \lvert dS/dE' \rvert$
-- Emergent Structural Time: $T(E') = \int_0^{E'} \Sigma(\xi) \, d\xi$
-- Template Classification (A / B / C)
+- Structural Path: $S(E')$  
+- Structural Sensitivity: $\Sigma(E') = \lvert dS/dE' \rvert$  
+- Emergent Structural Time: $T(E') = \int_0^{E'} \Sigma(\xi)\, d\xi$  
+- Template Classification (A / B / C)  
 
 This repository provides proxy tools for exploring these ideas in:
 
@@ -54,7 +54,7 @@ This repository provides proxy tools for exploring these ideas in:
 
 This project is licensed under:
 
-### **CC BY-NC-SA 4.0 + UEST Protective Clauses**
+### **CC BY-NC-SA 4.0 + UEST Protective Clauses**  
 
 See `LICENSE.md` for the complete legal terms.
 
@@ -79,12 +79,12 @@ If you use this code for research or academic purposes, cite:
 ## 📂 File Overview
 
 - `uest_core.py`  
-  Discrete proxy implementations of:
-  - structural sensitivity (Sigma proxy)  
+  Discrete proxy implementations of:  
+  - structural sensitivity (Σ proxy)  
   - emergent structural time (T proxy)
 
 - `uest_llm_structural_verification.py`  
-  Example script: applies the proxy metrics to a simplified LLM decision matrix
+  Example script: applies the proxy metrics to a simplified LLM decision matrix  
   and prints an interpretable structural verification summary.
 
 - `LICENSE.md`  
@@ -107,6 +107,7 @@ If you use this code for research or academic purposes, cite:
 
 For research collaboration or permissions:  
 **Email:** weristnochda@gmail.com
+
 
 
 
