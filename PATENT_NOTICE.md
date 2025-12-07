@@ -1,86 +1,66 @@
-# UEST Framework – Patent and Intellectual Property Notice
-
-**Author & Rights Holder:**  
-Olaf Margowski (2025)
-
-The Unified Energy–Structure–Tension (UEST) Framework — including its concepts,  
-definitions, mappings, structural metrics, template classifications, and  
-mathematical structures — constitutes **original intellectual property**.
-
-This repository includes derivative software that embodies conceptual elements  
-of the UEST Framework. As such, the following restrictions apply:
+# UEST Framework – Patent & Intellectual Property Notice  
+**Version 1.0 — 2025-12-07**  
+**Author & Rights Holder:** Olaf Margowski  
 
 ---
 
-## 🚫 1. Prohibition of Patent Claims by Third Parties
-No individual, organization, company, or research institution may:
+## 1. Scope and Ownership  
+The Unified Energy–Structure–Tension (UEST) Framework — including its underlying concepts, mathematical definitions, mappings, structural metrics, template classifications, and associated code implementations — is the original intellectual property of the author.
 
-- file patents  
-- claim patent priority  
-- repackage UEST concepts into patent filings  
-- derive commercial patent applications  
-- or submit related intellectual property protections  
-
-based on:
-
-- UEST stage mapping  
-- Structural sensitivity Σ proxies  
-- Emergent structural time T proxies  
-- Template classification logic  
-- Structural verification procedures  
-- or any related methods in this repository  
-
-without **explicit written permission** from the author.
-
-Such actions constitute a violation of international IP law, copyright law,  
-and scientific ethics.
+This notice applies to the entire repository and any derivative works.
 
 ---
 
-## 🚫 2. No Commercial Use, Reuse, or Incorporation
-The UEST Framework and its software may not be:
+## 2. Prohibition of Third-Party Patent Claims  
 
-- integrated into commercial software products  
-- used in risk scoring or decision systems  
-- deployed in enterprise AI pipelines  
-- applied to commercial data analysis  
-- used within industrial ML/LLM training  
-- included in hardware products  
-- or used in governmental contracting  
+No individual, entity, organization, or institution may, without **explicit written consent of the author**:
 
-without explicit written consent.
+- file, claim, or submit patent applications based on  
+  * UEST stage-mapping methodology  
+  * Discrete or continuous structural sensitivity (Σ) or emergent time (T) metrics  
+  * Template classification logic  
+  * UEST structural verification procedures  
+  * or any derived method, concept, or algorithm from this repository  
 
----
-
-## 🛡️ 3. Author Claim of Originality and Priority
-The author formally asserts:
-
-- full authorship  
-- scientific priority  
-- intellectual ownership  
-- and conceptual novelty  
-
-for the UEST Framework and all included methodologies.
-
-This includes continuous and discrete formulations.
+Such attempts are considered invalid and will be contested under applicable copyright and patent laws.
 
 ---
 
-## 🧬 4. Research Use Allowed (Non-Commercial Only)
-The author **encourages**:
+## 3. Restriction on Commercial Use and Integration  
 
-- academic collaboration  
-- open scientific study  
-- reproducibility  
-- teaching and educational use  
-- and critique  
+The UEST Framework (and any derived software) is licensed for **non-commercial, academic, educational, or research-only use**.  
 
-under the terms of the **CC BY-NC-SA 4.0 License**.
+Without explicit written permission from the author, the following are strictly prohibited:
+
+- Integration into commercial software products  
+- Deployment in production, industrial, enterprise, governmental, or proprietary systems  
+- Use for commercial data analytics, risk assessment systems, business applications  
+- Incorporation into commercial AI / ML / LLM training or evaluation pipelines  
+- Hardware or firmware integration  
+- Any commercialization, resale, licensing, or productization  
 
 ---
 
-## 📝 Contact for Licensing or Permissions
-For commercial licensing, derivative patents, or formal usage agreements:  
-**Email:** *your preferred contact here*
+## 4. Author’s Claim of Originality & Priority  
 
-Unauthorized commercial usage will be pursued under applicable IP and copyright law.
+The author asserts full ownership, originality, and priority of all components of the UEST Framework (both analytical foundations and code implementations).  
+This includes all mathematical definitions, design concepts, structural metrics, mappings, classifications, and derivative code.  
+
+---
+
+## 5. Permitted Use for Academic & Research Purposes  
+
+Non-commercial users (universities, researchers, students) are explicitly permitted — and encouraged — to:
+
+- study, analyze, and critique the UEST framework  
+- reproduce, adapt, and extend the code under the terms of the accompanying license (CC BY-NC-SA 4.0)  
+- use the methods for teaching, education, open-source research or non-commercial experimentation  
+
+---
+
+## 6. Enforcement & Contact  
+
+Any unauthorized commercial use or patent claim attempt will be considered a violation of intellectual property rights and legally contested under applicable law.
+
+For licensing inquiries, permissions for commercial use, derivative works, or patent-licensing requests, please contact:  
+**Email:** weristnochda@gmail.com  
