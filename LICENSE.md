@@ -1,34 +1,29 @@
 # UEST Framework – Discrete Proxy Implementation  
-## LICENSE (CC BY-NC-SA 4.0 + UEST Protective Clauses)
+## LICENSE v1.0 (2025-12-07)  
+### CC BY-NC-SA 4.0 + UEST Protective Clauses
 
 **Copyright (c) 2025  
 Author: Olaf Margowski**
 
-This repository contains original source code and conceptual material that form
-part of the **Unified Energy–Structure–Tension (UEST) Framework**, including
-discrete proxy implementations of structural metrics intended for scientific and
-educational research.
-
-The content is distributed under the following license:
-
 ---
 
-# Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International  
-(CC BY-NC-SA 4.0)
+## 🔹 1. Basic License Terms – CC BY-NC-SA 4.0
 
-## You are free to:
+You are free to:
+
 - **Share** — copy and redistribute the material in any medium or format  
 - **Adapt** — remix, transform, and build upon the material  
 
-## Under the following terms:
+Under the following terms:
 
-### **1. Attribution**  
-You must give appropriate credit, including:  
-> "© 2025 Olaf Margowski – UEST Framework"
+### ➤ 1.1 Attribution  
+You must give appropriate credit, including the attribution:
 
-### **2. NonCommercial**  
-You may **not** use the material for commercial purposes.  
-This includes, but is not limited to:  
+> “© 2025 Olaf Margowski – UEST Framework”
+
+### ➤ 1.2 NonCommercial  
+The material may **not** be used for commercial purposes.  
+This prohibition includes, but is not limited to:  
 - industrial use  
 - integration into commercial products  
 - commercial AI/LLM training or evaluation  
@@ -36,54 +31,65 @@ This includes, but is not limited to:
 - enterprise software or consulting  
 - proprietary research pipelines  
 
-### **3. ShareAlike**  
-If you remix, transform, or build upon the material, you must distribute your  
-contributions under the **same license**, including the UEST Protective Clauses.
+### ➤ 1.3 ShareAlike  
+If you remix, transform, or build upon the material, you must distribute  
+your contributions under the same license (CC BY-NC-SA 4.0), including  
+the UEST Protective Clauses.
 
 ---
 
-## Additional UEST Protective Clauses  
-*(Legally Binding Addendum)*
+## 🔹 2. Additional UEST Protective Clauses (Binding Addendum)
 
-### **A. No AI or LLM Commercial Training**  
-The material may **not** be used to train, fine-tune, or evaluate machine learning  
-models intended for **commercial**, **industrial**, or **proprietary** use.
+These clauses extend the base license and apply in all cases:
 
-### **B. Restriction on Use of the UEST Name**  
-The terms **"UEST"**, **"Unified Energy–Structure–Tension"**, **"Emergent Structural Time"**,  
-**"Structural Sensitivity Σ"**, **"UEST Mapping Algorithm"**, and all related terminology  
-may not be used to imply:  
+### ➤ 2.1 No Commercial AI / LLM Usage  
+You may **not** use this material to train, fine-tune, or evaluate machine learning models  
+intended for **commercial**, **industrial**, or **proprietary** use.
+
+### ➤ 2.2 Restriction on Use of the UEST Name and Terminology  
+The terms  
+**UEST**, **Unified Energy–Structure–Tension**, **Emergent Structural Time**,  
+**Structural Sensitivity Σ**, **UEST Mapping Algorithm**, and other related terminology  
+may **not** be used to imply:
+
 - product certification  
-- commercial validity  
-- endorsement  
-- affiliation  
-- or scientific approval  
+- commercial endorsement or approval  
+- corporate affiliation  
+- scientific validation  
+- or marketing justification  
 
-unless explicit written permission from the author is obtained.
+without **explicit written permission** from the author.
 
-### **C. No Derivative Patents Without Permission**  
-You may not file, claim, or pursue patents that directly use, extend, depend upon, or  
-operationalize concepts, methods, terminology, or algorithms from the UEST framework  
-without explicit written permission by the author.
-
-This ensures that the framework remains **open, non-commercial, and academically accessible**.
+### ➤ 2.3 No Patents Without Permission  
+You may **not** file, claim, or pursue patents that directly use, extend, depend upon, or  
+operationalize concepts, methods, algorithms or terminology from the UEST Framework  
+without explicit written permission from the author.
 
 ---
 
-## Disclaimer  
+## 🔹 3. Disclaimer & Intended Use
+
 This repository contains **discrete proxy implementations** inspired by the mathematical  
-UEST framework. They are *not* the continuous analytical definitions presented in  
+UEST Framework. They are **not** the continuous analytical definitions presented in  
 the scientific UEST publications.
 
-The code is provided **as-is**, without warranties of any kind, and intended solely for:  
+The code is provided **“as-is”**, without warranties of any kind, and is intended solely for:
 
 - academic study  
 - scientific research  
 - teaching  
 - non-commercial experimentation  
 
+Use in commercial environments or for production systems is strictly prohibited.
+
 ---
 
-## Full License Text  
-The complete CC BY-NC-SA 4.0 license is available at:  
+## 🔹 4. Full License Reference  
+The full text of the CC BY-NC-SA 4.0 license is available at:  
 https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+---
+
+## 🔹 5. Contact & Permissions  
+For licensing inquiries, derivative use, or commercial licensing requests  
+please contact: weristnochda@gmail.com  
