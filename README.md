@@ -8,8 +8,7 @@
 
 **Author:** Olaf Margowski  
 **Year:** 2025  
-**DOI (planned Zenodo deposit):** *to be assigned*
-
+**DOI (Zenodo):https://zenodo.org/records/17870819
 ---
 
 ## 🔬 What This Repository Contains
@@ -107,6 +106,7 @@ If you use this code for research or academic purposes, cite:
 
 For research collaboration or permissions:  
 **Email:** weristnochda@gmail.com
+
 
 
 
